@@ -1,0 +1,164 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 17, 2024, 11:00:23 PM
+    Author     : TUF
+*/
+:root {
+    --main-theme-color: orangered;
+    --main-theme-color-hover: rgb(221, 59, 0);
+    --main-theme-color-active: rgb(255 91 32);
+    --side-theme-color: #1C1C1C;
+    --main-title-color: #fff;
+    --border-theme-color: #9c9c9c;
+    --web-background-color: #f1f1f1;
+    --title-font: 1em;
+}
+
+
+*:focus {
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/*  */
+.profile-img {
+    text-align: center;
+    position: relative;
+    border: solid;
+    border-radius: 0;
+    margin-top: 40px;
+}
+
+.profile-img img {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.profile-img .file {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+    color: var(--main-title-color);
+    background: #212529b8;
+    left: 0;
+    bottom: 0;
+}
+
+.profile-img .file:hover {
+    color: #37a4c8;
+    background: #37a4c8;
+}
+
+.profile-img .file input {
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.profile-name {
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 10px 8px;
+    color: var(--side-theme-color);
+}
+
+#profile-function>form {
+    border: none;
+    border-bottom: 1px solid var(--side-theme-color);
+    margin-bottom: 1px;
+    background-color: #37a4c8;
+    color: var(--side-theme-color);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form {
+    width: 50%;
+}
+
+
+.function-select.list-group-item.list-group-item-action {
+    padding: 10px 5px;
+    color: var(--side-theme-color);
+    border: 2px solid var(--side-theme-color);
+    margin: 6px 0;
+    cursor: pointer;
+    user-select: none;
+    padding: 12px 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+#profile-function{
+    margin-bottom: 30px;
+}
+
+
+
+.toy-table table {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    border-collapse: separate;
+    border-spacing: 2px 8px;
+}
+
+.toy-table tr {
+    /* border-spacing: 5px; */
+}
+
+.toy-table th {
+    background-color: #37a4c8;
+    border: 1px solid var(--side-theme-color);
+
+    padding: 5px 0;
+    color: var(--main-title-color);
+}
+
+.toy-table td {
+    border: 1px solid var(--side-theme-color);
+}
+
+.toy-table .toy-item-img {
+    width: 80px;
+    margin: 5px 0;
+    border: 1px dotted var(--side-theme-color);
+    position: relative;
+}
+
+.toy-table button {
+    background-color: var(--main-title-color);
+    border: 2px solid var(--main-theme-color);
+    color: var(--main-theme-color);
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+#selected {
+    background: #37a4c8;
+}
+
+.text-profile {
+    color: var(--side-theme-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title-profile-cate{
+    margin-top: 35px;
+}
